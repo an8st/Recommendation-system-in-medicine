@@ -1,0 +1,12 @@
+pyuic5 MainWindow.ui -o MainWindow.py
+pyuic5 NewFormulWindow.ui -o NewFormulWindow.py
+pyuic5 ResultWindow.ui -o ResultWindow.py
+pyuic5 ThanksWindow.ui -o ThanksWindow.py
+pyuic5 ThanksWindowBZ.ui -o ThanksWindowBZ.py
+
+pyside6-rcc img.qrc > img_rc.py
+pyside6-uic MainWindow.ui > MainWindow.py
+
+ОБЯЗАТЕЛЬНО КОДИРОВАТЬ В UTF-8
+
+pyuic5 111.ui -o 111.py
